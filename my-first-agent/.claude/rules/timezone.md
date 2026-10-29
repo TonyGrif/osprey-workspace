@@ -1,0 +1,17 @@
+---
+summary: Facility timezone context for timestamp interpretation
+description: Tells agents what timezone OSPREY timestamps are in
+---
+
+# Timezone
+
+The facility timezone is **UTC**.
+
+Every data timestamp an OSPREY tool reports — archiver and live channel reads,
+logbook entries, simulated events, executed-script run times — is in this
+timezone, with an explicit UTC offset. (Internal artifacts like log filenames are
+not operator-facing and may use another format.)
+
+When the operator refers to a time ("today", "this morning", "14:32",
+"last Tuesday"), interpret it as **facility-local** in this timezone.
+

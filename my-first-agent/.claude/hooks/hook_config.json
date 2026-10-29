@@ -1,0 +1,5 @@
+{
+  "server_prefixes": ["mcp__controls__", "mcp__python__", "mcp__osprey_workspace__", "mcp__osprey_facility_knowledge__"],
+  "approval_prefixes": ["mcp__controls__", "mcp__controls__", "mcp__controls__", "mcp__python__", "mcp__osprey_workspace__", "mcp__osprey_facility_knowledge__"],
+  "write_tools": ["mcp__controls__channel_write", "mcp__python__execute"]
+}

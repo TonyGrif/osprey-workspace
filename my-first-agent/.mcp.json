@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "controls": {"args": ["-m", "osprey.mcp_server.control_system"], "command": "/home/tony/osprey-workspace/my-first-agent/.venv/bin/python", "env": {"CONFIG_FILE": "/home/tony/osprey-workspace/my-first-agent/config.yml", "EPICS_CA_ADDR_LIST": "${EPICS_CA_ADDR_LIST:-}", "OSPREY_CONFIG": "/home/tony/osprey-workspace/my-first-agent/config.yml"}},
+    "python": {"args": ["-m", "osprey.mcp_server.python_executor"], "command": "/home/tony/osprey-workspace/my-first-agent/.venv/bin/python", "env": {"CONFIG_FILE": "/home/tony/osprey-workspace/my-first-agent/config.yml", "OSPREY_CONFIG": "/home/tony/osprey-workspace/my-first-agent/config.yml"}},
+    "osprey_workspace": {"args": ["-m", "osprey.mcp_server.workspace"], "command": "/home/tony/osprey-workspace/my-first-agent/.venv/bin/python", "env": {"CONFIG_FILE": "/home/tony/osprey-workspace/my-first-agent/config.yml", "OSPREY_CONFIG": "/home/tony/osprey-workspace/my-first-agent/config.yml"}},
+    "osprey_facility_knowledge": {"args": ["-m", "osprey.mcp_server.facility_knowledge"], "command": "/home/tony/osprey-workspace/my-first-agent/.venv/bin/python", "env": {"OSPREY_CONFIG": "/home/tony/osprey-workspace/my-first-agent/config.yml"}}
+  }
+}
